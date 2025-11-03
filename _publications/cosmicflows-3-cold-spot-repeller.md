@@ -3,7 +3,7 @@ title: "Cosmicflows-3: Cold Spot Repeller?"
 collection: publications
 category: manuscripts
 permalink: /publication/cosmicflows-3-cold-spot-repeller
-excerpt: 'ArXiv: <https://arxiv.org/1708.07547>'
+excerpt: 'ArXiv: <https://arxiv.org/abs/1708.07547>'
 date: 2017-09-14
 venue: 'The Astrophysical Journal Letters'
 ---
