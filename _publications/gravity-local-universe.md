@@ -8,4 +8,4 @@ date: 2023-02-08
 venue: 'Astronomy & Astrophysics'
 ---
 
-Abstract
+We reconstructed the gravitational field below z = 0.8 from Cosmicflows-4 distances and supernovae data. The maps yield consistent fσ_8 and H_0 values and provide the most detailed publicly released velocity and density fields to date.
