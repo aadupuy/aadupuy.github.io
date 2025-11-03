@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/partitioning-the-universe
 excerpt: 'ArXiv: <https://arxiv.org/abs/1907.06555>'
 date: 2019-07-25
-venue: 'The Astrophysical Journal Letters'
+venue: 'Monthly Notices of the Royal Astronomical Society Letters'
 ---
 
 Abstract
