@@ -8,4 +8,4 @@ date: 2021-02-16
 venue: 'Astronomy & Astrophysics'
 ---
 
-Abstract
+We expanded the ADHI catalog to 18,874 galaxies with new 21 cm line width data from GBT, Nançay, and ALFALFA surveys. The catalog provides high-quality inputs for Tully–Fisher distance measurements in the forthcoming Cosmicflows-4 compilation.
