@@ -8,4 +8,4 @@ date: 2023-10-18
 venue: 'Astronomy & Astrophysics'
 ---
 
-Abstract
+Using the Cosmicflows-4 velocity field, we delineated superclusters dynamically as gravitational basins. This analysis defines six major superclusters including Laniakea and reveals that observed structures are significantly larger than ΛCDM predictions.
