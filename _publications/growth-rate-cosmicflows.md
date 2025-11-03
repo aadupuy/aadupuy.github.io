@@ -8,4 +8,4 @@ date: 2019-03-27
 venue: 'Monthly Notices of the Royal Astronomical Society'
 ---
 
-Abstract
+We analyzed three estimators of galaxy peculiar velocity correlations using mock and constrained Cosmicflows-3 datasets. Accounting for observational errors and cosmic variance, we obtained a local measurement of fσ_8 = 0.43, consistent with ΛCDM predictions.
