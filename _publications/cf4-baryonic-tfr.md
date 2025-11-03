@@ -8,4 +8,4 @@ date: 2022-02-07
 venue: 'Monthly Notices of the Royal Astronomical Society'
 ---
 
-Using a baryonic Tully–Fisher relation, we determined distances for 9,984 galaxies, calibrated against Cepheid and TRGB standards. The result yields H_0 = 75.5 ± 2.5 \text{km s}^{-1}\,\mathrm{Mpc}^{-1}, offering a complementary approach to cosmic distance scaling.
+Using a baryonic Tully–Fisher relation, we determined distances for 9,984 galaxies, calibrated against Cepheid and TRGB standards. The result yields \\( H_0 = 75.5 ± 2.5 \text{km s}^{-1}\,\mathrm{Mpc}^{-1} \\), offering a complementary approach to cosmic distance scaling.
