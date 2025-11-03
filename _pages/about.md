@@ -1,30 +1,9 @@
 ---
-title: Home
+title: About me
 permalink: /
 layout: single
 ---
 
-# Alexandra Dupuy
+I'm Alexandra Dupuy, an astrophysicist and data scientist. I develop deep learning models and various other data analysis techniques to extract insights from complex, large-scale datasets. My research focuses on reconstructing 3D cosmological fields from sparse and noisy observations, combining scientific modeling with advanced computational techniques. Beyond research, I am passionate about applying my skills to real-world data science problems, turning data into actionable insights, and building intuitive visualizations for complex systems.
 
-**Astrophysicist & Data Scientist**  
-Using deep learning and data analysis to turn complex datasets into actionable insights.
-
----
-
-I develop machine learning models to extract insights from large, noisy datasets. My research focuses on reconstructing 3D cosmological fields from sparse observations, combining scientific modeling with advanced deep learning. I’m passionate about applying these techniques to real-world data science problems.
-
----
-
-## Highlights
-
-- Experienced in Python, TensorFlow, NumPy, and large-scale data analysis
-- Expertise in 3D data reconstruction, visualization, and statistical modeling
-- First-author publications in top astrophysics journals
-
----
-
-## Explore
-
-- [Projects](portfolio/) – Hands-on work using ML and data analysis  
-- [Publications](publications/) – Research output and papers  
-- [Contact](contact/) – Connect with me
+On this site, you can explore my [projects](portfolio/), view my [publications](publications/), and get in touch via [contact](contact/).
