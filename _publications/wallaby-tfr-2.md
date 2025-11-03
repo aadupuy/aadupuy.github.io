@@ -8,4 +8,4 @@ date: 2024-06-18
 venue: 'Monthly Notices of the Royal Astronomical Society'
 ---
 
-Abstract
+We analyzed high S/N ASKAP spectra from the WALLABY pilot survey to establish near-infrared Tully–Fisher relations across several fields. These calibrations confirm WALLABY’s potential to map local velocities with high precision.
