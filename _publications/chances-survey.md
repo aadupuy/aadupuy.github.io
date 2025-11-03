@@ -8,4 +8,4 @@ date: 2025-05-08
 venue: 'Astronomy & Astrophysics'
 ---
 
-Abstract
+The CHileAN Cluster galaxy Evolution Survey (CHANCES) will observe ~500,000 galaxies across 100 clusters and two superclusters using 4MOST. The project aims to study environmental effects on galaxy evolution through comprehensive spectroscopic coverage.
