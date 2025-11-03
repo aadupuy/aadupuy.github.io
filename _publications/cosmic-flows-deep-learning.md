@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/cosmic-flows-deep-learning
 excerpt: 'ArXiv: '
-<!--date: 2025-09-12-->
+date: 2025-12-31
 venue: 'The Astrophysical Journal'
 ---
 
