@@ -262,13 +262,13 @@ defaults:
       share: true
       comment: true
   # _contact
-  - scope:
-      path: ""
-      type: contact
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: contact
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 
 # Sass/SCSS
