@@ -8,4 +8,4 @@ date: 2022-09-06
 venue: 'Monthly Notices of the Royal Astronomical Society'
 ---
 
-Abstract
+We analyzed Local Group formation using constrained HESTIA simulations to trace satellite accretion. We found that infall directions align with the slowest-collapse axis of the cosmic web, showing that satellites were funneled along coherent large-scale filaments.
