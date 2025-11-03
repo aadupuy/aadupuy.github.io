@@ -8,4 +8,4 @@ date: 2025-09-12
 venue: 'Astronomy & Astrophysics'
 ---
 
-We combined WALLABY, FAST, and DESI velocity data to create CF4++, refining local bulk flow and supercluster structure within z ≈ 0.1. The catalog shows a bulk flow of 315 ± 40 \text{km s}^{-1} and improved definitions of Laniakea and the Vela supercluster.
+We combined WALLABY, FAST, and DESI velocity data to create CF4++, refining local bulk flow and supercluster structure within \\( z ≈ 0.1 \\). The catalog shows a bulk flow of \\( 315 \pm 40 \text{km s}^{-1} \\) and improved definitions of Laniakea and the Vela supercluster.
