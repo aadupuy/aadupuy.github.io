@@ -23,7 +23,7 @@ repository               : "aadupuy/aadupuy.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.JPG"
   name             : "Alexandra Dupuy"
   pronouns         : # example: "she/her"  
   bio              : "Astrophysicist & Data Scientist"
