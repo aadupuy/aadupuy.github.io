@@ -3,11 +3,8 @@ title: "Cosmicflows-3: Cold Spot Repeller?"
 collection: publications
 category: manuscripts
 permalink: /publication/cosmicflows-3-cold-spot-repeller
-excerpt: 'We modeled the three-dimensional gravitational velocity field within z ≈ 0.1 using Wiener filtering applied to the Cosmicflows-3 galaxy distances. The reconstruction reveals one major basin of attraction linked to the Shapley concentration, and two repulsive regions — the Dipole Repeller and another near the CMB Cold Spot — offering insights into large-scale cosmic flows and voids.'
+excerpt: 'We modeled the three-dimensional gravitational velocity field within z ≈ 0.1 using Wiener filtering applied to the Cosmicflows-3 galaxy distances. The reconstruction reveals one major basin of attraction linked to the Shapley concentration, and two repulsive regions — the Dipole Repeller and another near the CMB Cold Spot — offering insights into large-scale cosmic flows and voids. https://arxiv.org/1708.07547'
 date: 2017-09-14
 venue: 'The Astrophysical Journal Letters'
-slidesurl: 'https://ui.adsabs.harvard.edu/abs/2017ApJ...847L...6C/abstract'
-paperurl: 'https://arxiv.org/pdf/1708.07547'
-citation: ''
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+
