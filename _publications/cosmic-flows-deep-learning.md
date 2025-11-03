@@ -8,4 +8,4 @@ excerpt: 'ArXiv: '
 venue: 'The Astrophysical Journal'
 ---
 
-Abstract
+We developed a deep-learning framework using a 3D convolutional neural network (V-Net) to reconstruct the dark matter density, potential, and peculiar velocity fields from observational, sparse and noisy galaxy data. The model, trained and validated on Cosmicflows-4 mocks constructed from cosmological simulations, successfully recovers known structures hidden behind the Zone of Avoidance — including the Great Attractor — demonstrating its power to map mass distributions in data-sparse regions.
