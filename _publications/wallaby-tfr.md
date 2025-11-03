@@ -8,4 +8,4 @@ date: 2022-11-12
 venue: 'Monthly Notices of the Royal Astronomical Society'
 ---
 
-Abstract
+We derived Tully–Fisher distances for 251 galaxies from WALLABY pilot fields using ASKAP data. Results demonstrate WALLABY’s capability to measure accurate distances comparable to traditional single-dish surveys, paving the way for ∼200,000 TF distances in the full survey.
