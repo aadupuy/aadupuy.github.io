@@ -7,40 +7,29 @@ redirect_from:
   - /resume
 ---
 
-<!--
-{% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+{% include base_path %}
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* March 2022 -- Present: Research Fellow at Korea Institute for Advanced Study
+  * Duties
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* March 2019 -- December 2021: Postdoctoral Researcher at Institut de Physique des 2 Infinis, Lyon, France
+  * Duties
+ 
+Education
+======
+* Ph.D in in Astrophysics — Institut de Physique des 2 Infinis & Université Claude Bernard Lyon 1, France, 2018
+* M.Sc. in Physics (Astrophysics) — Université Claude Bernard Lyon 1, France & Wuhan University, China, 2015
+* B.Sc. in Physics (graduated with Honors) — Université Claude Bernard Lyon 1 & École Normale Supérieure de Lyon, France, 2013
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming & data analysis: Python (NumPy, Pandas, Scikit-learn), C++, SQL
+* Machine & deep learning: TensorFlow, Keras, CNNs
+* Data visualization: Matplotlib, PyVista
+* Tools & software: Jupyter Notebook, Git, LaTeX
 
 Publications
 ======
@@ -53,14 +42,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
--->
