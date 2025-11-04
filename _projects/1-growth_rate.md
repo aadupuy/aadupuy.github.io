@@ -2,7 +2,7 @@
 title: "Estimating the Cosmological Growth Rate from Peculiar Velocity Correlations"
 excerpt: "Built a statistical inference framework to estimate the cosmological growth rate parameter $$f\\sigma_8$$ from galaxy peculiar velocity correlations.  Automated data loading, binning, and Monte Carlo uncertainty propagation across 100+ realisations using NumPy and SciPy. Implemented a $$\\chi^2$$-based  model fitting via iminuit and produced publication-ready data visualizations, validating results against ΛCDM predictions."
 collection: projects
-categories: Statistical Modeling & Analysis
+categories: "Statistical Modeling & Analysis"
 tags: [Python, Statistics, Cosmology, Data Analysis, Visualization]
 ---
 
