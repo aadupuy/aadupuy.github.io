@@ -4,8 +4,6 @@ excerpt: "Built a statistical inference framework to estimate the cosmological g
 collection: projects
 categories: [Statistical Modeling & Analysis]
 tags: [Python, Statistics, Cosmology, Data Analysis, Visualization]
-header:
-  teaser: /images/fig_growth_rate.png
 ---
 
 ## Summary
