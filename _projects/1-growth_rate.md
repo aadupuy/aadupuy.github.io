@@ -5,7 +5,7 @@ collection: projects
 categories: [Statistical Modeling & Analysis]
 tags: [Python, Statistics, Cosmology, Data Analysis, Visualization]
 header:
-  teaser: /images/projects/fs8_thumb.png
+  teaser: /images/fs8_thumb.png
 ---
 
 ## Summary
