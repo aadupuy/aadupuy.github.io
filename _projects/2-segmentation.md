@@ -1,6 +1,6 @@
 ---
 title: "3D Segmentation of the Cosmic Velocity Field into Gravitational Basins"
-excerpt: "Developed a high-performance C++ framework using VTK and MPI to segment the 3D cosmic velocity field into dynamically coherent regions ('watersheds'). This method identifies attractors, repellers and their respective gravitational basin by tracing streamlines through the velocity field, providing a physically motivated map of the large-scale structure of the Universe."
+excerpt: "Designed a fully parallelized C++ + MPI framework for large-scale 3D field segmentation, efficiently handling multi-hundred-million-voxel datasets on HPC clusters using HDF5 I/O. Implemented a streamline-based watershed algorithm that identified dynamically coherent basins such as the Laniakea supercluster. Generated interactive visual outputs using ParaView/PyVista for model interpretability."
 collection: projects
 tags: [C++, VTK, MPI, HDF5, Eigen, Scientific Computing, Cosmology, Visualization]
 ---
