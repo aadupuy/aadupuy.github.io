@@ -1,6 +1,7 @@
 ---
 title: "Estimating the Cosmological Growth Rate from Peculiar Velocity Correlations"
-excerpt: "Developed a full data analysis and inference pipeline to estimate the local cosmological growth rate $$f\\sigma_8$$ using galaxy peculiar velocity correlations from the Cosmicflows-4 catalog. Combined observational data processing, statistical modeling, Monte Carlo uncertainty propagation, and $$\\chi^2$$-based parameter inference."
+excerpt: "
+Built a statistical inference framework to estimate the cosmological growth rate parameter $$f\\sigma_8$$ from galaxy peculiar velocity correlations.  Automated data loading, binning, and Monte Carlo uncertainty propagation across 100+ realisations using NumPy and SciPy. Implemented a $$\\chi^2$$-based  model fitting via iminuit and produced publication-ready data visualizations, validating results against ΛCDM predictions."
 collection: projects
 tags: [Python, Statistics, Cosmology, Data Analysis, Visualization]
 ---
