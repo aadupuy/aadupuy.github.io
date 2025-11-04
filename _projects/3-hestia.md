@@ -1,6 +1,6 @@
 ---
 title: "Anisotropic Satellite Accretion onto the Local Group with HESTIA"
-excerpt: "Analyzed high-resolution cosmological simulations (HESTIA suite) to study the directional accretion of satellites onto the Milky Way and Andromeda galaxies. Extracted velocity shear and tidal tensors, traced satellite infall trajectories, and identified large-scale anisotropies aligned with the cosmic web."
+excerpt: "Developed a complete Python analysis pipeline to quantify anisotropic satellite accretion from cosmological simulations. Extracted and diagonalized velocity-shear and tidal tensors, revealing strong statistical alignment between infall directions and cosmic-web eigenvectors, indicating flow coherence across large scales. Produced Aitoff-projected visualizations and statistical summaries in Matplotlib and Astropy."
 collection: projects
 tags: [Python, NumPy, Pandas, Astrophysics, Tensor Analysis, Cosmological Simulations, Visualization]
 ---
