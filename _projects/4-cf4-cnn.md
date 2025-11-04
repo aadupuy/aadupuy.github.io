@@ -1,6 +1,6 @@
 ---
 title: "Revealing Hidden Cosmic Flows through the Zone of Avoidance with Deep Learning"
-excerpt: "Developed a 3D convolutional neural network (V-Net) to reconstruct dark matter density, gravitational potential, and velocity fields in the data-sparse Zone of Avoidance using galaxy peculiar velocity data. The model reveals hidden cosmic structures such as the Great Attractor through deep-learning-based cosmography."
+excerpt: "Built a 3D convolutional neural network (V-Net) to reconstruct dark-matter density and gravitational potential from incomplete galaxy peculiar velocity data. Achieved high correlation ($$r = 0.98$$) between predicted and true (simulated) fields, accurately recovering known cosmic structures such as the Great Attractor. Produced interactive 3D visualizations and automated data preprocessing pipelines for training on 12,000+ samples using TensorFlow and HPC GPUs."
 collection: projects
 tags: [Python, TensorFlow, Deep Learning, 3D CNN, Astrophysics, Cosmology, Data Reconstruction, PyVista, Matplotlib]
 ---
