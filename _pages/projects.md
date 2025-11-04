@@ -6,11 +6,9 @@ author_profile: true
 ---
 
 
-In preparation...
-
 {% include base_path %}
 
 
-{% for post in site.portfolio %}
+{% for post in site.projects %}
   {% include archive-single.html %}
 {% endfor %}

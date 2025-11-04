@@ -6,6 +6,7 @@ permalink: /publication/cf4-catalog-tf-distances
 excerpt: 'ArXiv: <https://arxiv.org/abs/2009.00733>'
 date: 2020-10-23
 venue: 'The Astrophysical Journal'
+citation: "Kourkchi E., Tully R. B., Eftekharzadeh S., Llop J., Courtois H. M., Guinet D., Dupuy A., Neill J. D., Seibert M., Andrews M., Chuang J., Danesh A., Gonzalez R., Holthaus A., Mokelke A., Schoen D., Urasaki C. (2020). \"Cosmicflows-4: The Catalog of ~10,000 Tully-Fisher Distances.\" <i>The Astrophysical Journal</i>, 902(2), 145. <a href='https://doi.org/10.3847/1538-4357/abb66b'>doi:10.3847/1538-4357/abb66b</a> | <a href='https://arxiv.org/abs/2009.00733'>arXiv:2009.00733</a>"
 ---
 
 We measured distances for nearly 10,000 spiral galaxies using the Tully–Fisher relation calibrated across optical and infrared bands. A random forest model was developed to predict dust attenuation, leading to a Hubble constant estimate of \\( H_0 = 75.1 ± 0.2 \text{km s}^{-1}\,\mathrm{Mpc}^{-1} \\).
