@@ -14,7 +14,7 @@ Python 3, TensorFlow, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC (NVIDIA 
 
 ## Methods Overview
 * Data: Used the Cosmicflows-4 galaxy catalog (17,000+ galaxies) and constructed CF4-like mock catalogs drawn from the A-SIM cosmological N-body simulation.
-* Inputs: Galaxy number density ($$N_\mathrm{gal}$$) and mean radial peculiar velocity ($$V\mathrn{pec}$$) on 3D grids ($$128^3$$ voxels, 160 Mpc/h cube).
+* Inputs: Galaxy number density ($$N_\mathrm{gal}$$) and mean radial peculiar velocity ($$V\mathrm{pec}$$) on 3D grids ($$128^3$$ voxels, 160 Mpc/h cube).
 * Targets: Dark matter density ($$\rho$$) and gravitational potential ($$\phi$$) fields, smoothed to 1.25 Mpc/h resolution.
 * Model: 3D V-Net CNN with encoder–decoder structure and reflection padding; trained separately for $$\rho$$ and $$\phi$$ prediction using MSE loss.
 * Optimization: Used Adam optimizer with a triangular cyclic learning rate ($$10^{-7}–10^{-5}$$) over 200 epochs; training on dual NVIDIA A100 GPUs (80 GB).
