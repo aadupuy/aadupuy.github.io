@@ -4,6 +4,8 @@ excerpt: "Developed a complete Python analysis pipeline to quantify anisotropic 
 collection: projects
 categories: [Computational Data Analysis]
 tags: [Python, NumPy, Pandas, Astrophysics, Tensor Analysis, Cosmological Simulations, Visualization]
+header:
+  teaser: /images/fig_hestia.png
 ---
 
 ## Summary

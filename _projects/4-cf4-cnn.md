@@ -1,9 +1,11 @@
 ---
 title: "Revealing Hidden Cosmic Flows through the Zone of Avoidance with Deep Learning"
-excerpt: "Built a 3D convolutional neural network (V-Net) to reconstruct dark-matter density and gravitational potential from incomplete galaxy peculiar velocity data. Achieved high correlation ($$r = 0.98$$) between predicted and true (simulated) fields, accurately recovering known cosmic structures such as the Great Attractor. Produced interactive 3D visualizations and automated data preprocessing pipelines for training on 12,000+ samples using TensorFlow and HPC GPUs."
+excerpt: "Built a 3D convolutional neural network (V-Net) to reconstruct dark-matter density and gravitational potential from incomplete galaxy peculiar velocity data. Achieved high correlation ($$r = 0.98$$) between predicted and true (simulated) fields, accurately recovering known cosmic structures such as the Great Attractor. Produced interactive 3D visualizations and automated data preprocessing pipelines for training on 12,000+ samples using TensorFlow and HPC GPUs, and combined the CNN results with C++ segmentation and clustering analysis to identify the Great Attractor region."
 collection: projects
 categories: [Deep Learning]
 tags: [Python, TensorFlow, Deep Learning, 3D CNN, Astrophysics, Cosmology, Data Reconstruction, PyVista, Matplotlib]
+header:
+  teaser: /images/fig_cnn.png
 ---
 
 ## Summary
@@ -19,6 +21,7 @@ Python 3, TensorFlow, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC (NVIDIA 
 * Model: 3D V-Net CNN with encoder–decoder structure and reflection padding; trained separately for $$\rho$$ and $$\phi$$ prediction using MSE loss.
 * Optimization: Used Adam optimizer with a triangular cyclic learning rate ($$10^{-7}–10^{-5}$$) over 200 epochs; training on dual NVIDIA A100 GPUs (80 GB).
 * Validation: 11,512 total training samples (1,264 validation); performance tested on unseen mocks and statistical realizations of corrected CF4 data.
+* Post-processing: Applied density-based clustering (DBSCAN) to the 3D positions of gravitational attractor candidates extracted from CNN predictions and C++ watershed segmentation. This unsupervised approach grouped spatially coherent candidates, isolating the Great Attractor region with high confidence.
 
 ## Highlights
 * Constructed a scalable 3D CNN for volumetric cosmological data (input tensor shape: $$2 \times 128 \times 128 \times 128$$).
@@ -27,6 +30,7 @@ Python 3, TensorFlow, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC (NVIDIA 
 * Validated reconstructions through bulk flow statistics and cross-checks with independent observations.
 * Recovered known clusters and voids in the ZOA, including the Great Attractor at $$(l, b) = (308.4°, 29.0°), cz \sim 4960 km/s)$$.
 * Produced interactive 3D visualizations with PyVista, publicly viewable on Sketchfab, and 2D skymaps with Matplotlib.
+* Combined CNN predictions with C++ segmentation and DBSCAN clustering in 3D space to automatically group attractor candidates and identify the Great Attractor region.
 
 **Publication:**  
 Dupuy A., Jeong D., Hong S. E., Hwang H. S., Kim J., Courtois H. M. (Accepted, 2025). *Revealing Hidden Cosmic Flows through the Zone of Avoidance with Deep Learning.*  

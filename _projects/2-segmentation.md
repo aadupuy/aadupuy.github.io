@@ -4,6 +4,8 @@ excerpt: "Designed a fully parallelized C++ + MPI framework for large-scale 3D f
 collection: projects
 categories: [Data Engineering & Visualization]
 tags: [C++, VTK, MPI, HDF5, Eigen, Scientific Computing, Cosmology, Visualization]
+header:
+  teaser: /images/fig_segmentation.png
 ---
 
 ## Summary
