@@ -27,6 +27,7 @@ Dupuy A., Libeskind N. I., Hoffman Y., Courtois H. M., Gottlöber S., Grand R. J
 *Monthly Notices of the Royal Astronomical Society*, 516(3), 4576–4584. 
 [doi:10.1093/mnras/stac2486](https://doi.org/10.1093/mnras/stac2486) · [arXiv:2208.14648](https://arxiv.org/abs/2208.14648)
 
+**Related Github repository:** [Satellite Accretion in the Local Group](https://github.com/aadupuy/satellite_accretion)
 
 <p align="center">
   <img src="/images/fig_hestia.png" width="120%">
