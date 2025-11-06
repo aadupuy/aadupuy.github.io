@@ -35,10 +35,10 @@ Python 3, TensorFlow / Keras, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC 
 ## Scientific insights
 * Recovered known clusters and voids in the ZOA, including the Great Attractor at $$(l, b) = (308.4°, 29.0°), cz \sim 4960 km/s)$$.
 
-# Visualization
+## Visualization
 * Produced interactive 3D visualizations with PyVista, publicly viewable on Sketchfab, and 2D skymaps with Matplotlib.
 
-# Takeaway 
+## Takeaway 
 🪐 Demonstrated how 3D deep learning can recover the invisible matter distribution of the nearby Universe from sparse observational data.
 
 **Publication:**  
