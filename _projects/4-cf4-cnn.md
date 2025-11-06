@@ -27,15 +27,17 @@ Python 3, TensorFlow / Keras, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC 
 * Post-processing: Applied DBSCAN clustering to CNN-predicted attractor candidates, combined with C++ watershed segmentation to isolate the Great Attractor region with high confidence.
 
 ## Highlights
+
+### Model & Performance
 * Constructed a scalable 3D CNN for volumetric cosmological data (input tensor shape: $$2 \times 128 \times 128 \times 128$$).
 * Predicted both density and potential fields, then derived the full 3D peculiar velocity field via physical gradients.
 * Achieved Pearson r = 0.98 between predicted and true gravitational potential fields on validation data.
 * Validated reconstructions through bulk flow statistics and cross-checks with independent observations.
 
-## Scientific insights
+### Scientific insights
 * Recovered known clusters and voids in the ZOA, including the Great Attractor at $$(l, b) = (308.4°, 29.0°), cz \sim 4960 km/s)$$.
 
-## Visualization
+### Visualization
 * Produced interactive 3D visualizations with PyVista, publicly viewable on Sketchfab, and 2D skymaps with Matplotlib.
 
 ## Takeaway 
