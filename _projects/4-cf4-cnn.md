@@ -9,10 +9,13 @@ header:
 ---
 
 ## Summary
-This project introduces a deep-learning framework to reconstruct the 3D dark matter and velocity fields in the Zone of Avoidance (ZOA) — a region of the sky obscured by the Milky Way where traditional surveys are incomplete. Using a 3D V-Net convolutional neural network, trained on cosmological simulations (A-SIM), the model learns to infer both the dark matter density and gravitational potential from sparse galaxy peculiar velocity data. The derived velocity field accurately recovers known hidden structures, including the Great Attractor, confirming the model’s ability to map cosmic flows in regions with missing observations.
+This project presents a deep-learning framework for reconstructing the 3D dark-matter and velocity fields in the Zone of Avoidance (ZOA) — the region of the sky obscured by the Milky Way where galaxy surveys are incomplete. Using a 3D V-Net convolutional neural network trained on cosmological simulations (A-SIM), the model infers both the dark-matter density and gravitational potential from sparse galaxy peculiar-velocity data. The resulting velocity field accurately recovers hidden large-scale structures, including the Great Attractor, confirming the model’s ability to map cosmic flows even in regions lacking observations.
+
+## Role
+Designed and implemented the full pipeline — from simulation preprocessing and CNN architecture design to CF4 data reconstruction, validation, and 3D visualization.
 
 ## Tech Stack
-Python 3, TensorFlow, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC (NVIDIA A100 GPUs)
+Python 3, TensorFlow / Keras, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC (NVIDIA A100 GPUs, Slurm)
 
 ## Methods Overview
 * Data: Used the Cosmicflows-4 galaxy catalog (17,000+ galaxies) and constructed CF4-like mock catalogs drawn from the A-SIM cosmological N-body simulation.
@@ -21,16 +24,22 @@ Python 3, TensorFlow, NumPy, h5py, Matplotlib, PyVista, tqdm, HDF5, HPC (NVIDIA 
 * Model: 3D V-Net CNN with encoder–decoder structure and reflection padding; trained separately for $$\rho$$ and $$\phi$$ prediction using MSE loss.
 * Optimization: Used Adam optimizer with a triangular cyclic learning rate ($$10^{-7}–10^{-5}$$) over 200 epochs; training on dual NVIDIA A100 GPUs (80 GB).
 * Validation: 11,512 total training samples (1,264 validation); performance tested on unseen mocks and statistical realizations of corrected CF4 data.
-* Post-processing: Applied density-based clustering (DBSCAN) to the 3D positions of gravitational attractor candidates extracted from CNN predictions and C++ watershed segmentation. This unsupervised approach grouped spatially coherent candidates, isolating the Great Attractor region with high confidence.
+* Post-processing: Applied DBSCAN clustering to CNN-predicted attractor candidates, combined with C++ watershed segmentation to isolate the Great Attractor region with high confidence.
 
 ## Highlights
 * Constructed a scalable 3D CNN for volumetric cosmological data (input tensor shape: $$2 \times 128 \times 128 \times 128$$).
 * Predicted both density and potential fields, then derived the full 3D peculiar velocity field via physical gradients.
 * Achieved Pearson r = 0.98 between predicted and true gravitational potential fields on validation data.
 * Validated reconstructions through bulk flow statistics and cross-checks with independent observations.
+
+## Scientific insights
 * Recovered known clusters and voids in the ZOA, including the Great Attractor at $$(l, b) = (308.4°, 29.0°), cz \sim 4960 km/s)$$.
+
+# Visualization
 * Produced interactive 3D visualizations with PyVista, publicly viewable on Sketchfab, and 2D skymaps with Matplotlib.
-* Combined CNN predictions with C++ segmentation and DBSCAN clustering in 3D space to automatically group attractor candidates and identify the Great Attractor region.
+
+# Takeaway 
+🪐 Demonstrated how 3D deep learning can recover the invisible matter distribution of the nearby Universe from sparse observational data.
 
 **Publication:**  
 Dupuy A., Jeong D., Hong S. E., Hwang H. S., Kim J., Courtois H. M. (Accepted, 2025). *Revealing Hidden Cosmic Flows through the Zone of Avoidance with Deep Learning.*  
