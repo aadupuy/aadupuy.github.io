@@ -12,20 +12,20 @@ redirect_from:
 
 Work experience
 ======
-* March 2022 -- Present: Research Fellow at Korea Institute for Advanced Study
-  * Analyzed large-scale cosmological datasets to study the density and velocity fields of the local Universe.
-  * Developed and trained deep learning models (3D CNNs / V-Net) in Python and TensorFlow for cosmic field reconstruction, including mock data generation for training samples and 3D visualizations.
-  * Conducted statistical analysis and model fitting (chi-square minimization, growth rate parameter estimation, bulk flow measurement) on peculiar velocity surveys.
-  * Produced 2D and 3D visualizations (interactive & publication ready) of density, velocity fields, and gravitational basins.
-  * Collaborated internationally, co-authored multiple peer-reviewed publications and delivered research talks at international conferences and workshops on cosmology.
+* March 2022 -- March 2026: Research Fellow at Korea Institute for Advanced Study
+  * Designed and implemented a 3D CNN model (V-Net) to reconstruct missing signals from incomplete and noisy data, achieving a correlation coefficient of 0.98 between model predictions and ground truth.
+  * Applied models to noisy, real-world data, bridging model development and real data applications.
+  * Improved model performance through hyperparameter tuning, dataset refinement, and custom loss design.
+  * Built automated preprocessing pipelines for 12,000+ 3D datasets, reducing manual effort.
+  * Trained and optimized models on GPU and HPC environments, using SLURM for distributed job scheduling.
+  * Communicated results through publications and presentations, and collaborated with international teams.
 
 * March 2019 -- December 2021: Postdoctoral Researcher at Institut de Physique des 2 Infinis, Lyon, France
-  * Conducted large-scale data analysis of velocity and density fields using Python (NumPy, Pandas, Matplotlib).
-  * Developed 3D methods in C++ for cosmic structure segmentation, streamline tracing, and velocity field modeling to study the dynamics of the local Universe.
-  * Implemented data processing and automation pipelines for HI observations (GBT) integrated into the Cosmicflows-4 catalog.
-  * Applied statistical analyzes and model fitting (chi-square minimization, parameter estimation) to measure the growth rate of large-scale structures.
-  * Published results in peer-reviewed journals (A&A, MNRAS) and collaborated with international research teams.
-  * Delivered presentations and talks at international conferences and workshops on cosmology and large-scale structures.
+  * Developed C++ and Python frameworks for large-scale 3D data processing and spatial partitioning of 3D datasets.
+  * Applied statistical and regression models in Python  to analyze datasets and estimate key parameters.
+  * Designed data preprocessing and cleaning pipelines to improve data consistency and reduce manual effort.
+  * Built 2D and 3D visualization tools to explore spatial patterns and communicate results.
+  * Collaborated with international teams on data integration, model evaluation.
  
 Education
 ======
@@ -35,10 +35,10 @@ Education
 
 Skills
 ======
-* Programming & data analysis: Python (NumPy, Pandas, Scikit-learn), C++, SQL
-* Machine & deep learning: TensorFlow, Keras, CNNs
-* Data visualization: Matplotlib, PyVista
-* Tools & software: Jupyter Notebook, Git, LaTeX
+* Machine Learning & Deep Learning: TensorFlow, Keras (deep learning model development), CNNs
+* Programming:  Python (NumPy, Pandas, SciPy, Scikit-learn ML workflows), C++, SQL
+* Data Processing & Visualization: Matplotlib, PyVista, Paraview, VTK
+* Tools: Git, Jupyter Notebook, HPC (GPU training, SLURM job scheduling)
 
 Publications
 ======
