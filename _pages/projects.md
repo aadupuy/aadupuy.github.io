@@ -5,6 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
+Selected projects demonstrating machine learning, data processing, and large-scale analysis.
 
 {% include base_path %}
 
